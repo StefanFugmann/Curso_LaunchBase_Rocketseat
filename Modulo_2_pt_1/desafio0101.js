@@ -1,13 +1,13 @@
-const name = "Carlos";
-const peso = 84;
-const altura = 1.88;
+const name = "João";
+const peso = 100;
+const altura = 1.8;
 const sexo = "masculino";
 
 const imc = peso / (altura * altura);
 
 // console.log(imc);
 if (imc >= 30) {
-  console.log("Carlos vc está acima do peso.");
+  console.log(`${name} vc está acima do peso.`);
 } else {
-  console.log("Carlo você não está acima do peso.");
+  console.log(`${name} você não está acima do peso.`);
 }
