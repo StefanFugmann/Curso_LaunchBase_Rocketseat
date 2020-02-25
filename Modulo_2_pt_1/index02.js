@@ -45,10 +45,10 @@ enviaMensagem(media2, "turmaB");
 
 function enviaMensagem(media, turma) {
   if (media > 6) {
-    console.log(`A média da turma ${turma} foi ${media}. Parabéns!`);
+    console.log(`A média da ${turma} foi ${media}. Parabéns!`);
   } else {
     console.log(
-      `A média da turma ${turma} foi ${media}, que é menor que a média 6 exigida para passar. Teram que se esforçar mais.`
+      `A média da ${turma} foi ${media}, que é menor que a média 6 exigida para passar. Teram que se esforçar mais.`
     );
   }
 }
