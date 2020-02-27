@@ -32,11 +32,11 @@ header {
   margin: 30px;
   
   text-decoration: none;
-  color: greenyellow;
+  color: white;
 }
 
 .links a:hover {
-  color: white;
+  color: greenyellow;
   transition: color 200ms;
 }
 
@@ -51,4 +51,21 @@ header {
   padding: 20px;
   border: 20px;
   margin-bottom: 30px;
+}
+
+#wrapper h2 {
+  padding: 20px;
+  border: 20px;
+  margin-bottom: 30px;
+}
+
+#wrapper ul {
+  padding: 20px;
+  border: 20px;
+  margin-bottom: 30px;
+}
+
+#wrapper li {
+  text-align: left;
+  margin-left: 400px;
 }
